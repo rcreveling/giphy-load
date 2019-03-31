@@ -1,0 +1,8 @@
+.wrapper {
+    overflow-x: hidden;
+}
+
+.row-height {
+    height: auto;
+    max-height: 25%;
+}
