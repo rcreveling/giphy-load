@@ -1,8 +1,68 @@
+html {
+    height: fit-content;
+    
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: stretch;
+    background-repeat: no-repeat;   
+    
+}
+
+html, 
+body {
+    height: 100%;
+    width: 100%;
+}
+
 .wrapper {
+    height: auto;
     overflow-x: hidden;
+    content: fill;
+}
+
+.carousel-back {
+    background-image: radial-gradient(rgba(0,0,0,.8), rgba(83, 33, 33, 0.9));
+    border-bottom: solid;
+    height: fixed;
+    min-height: fit-content;
+    max-height: 25vw !important;
+    overflow: hidden;
+
 }
 
 .row-height {
+    height: fixed;
+    max-height: 25vw !important;
+    border: 0px, 0px, 5px, 0px black !important;
+    background-color: black;
+}
+
+.height-adjust {
+    max-height: 300px;
+    width: auto;
     height: auto;
-    max-height: 25%;
+}
+
+.margin-adjust {
+    margin-left: !important;
+}
+
+.peach-gradient {
+        background: -webkit-linear-gradient(50deg,#bd6868,#9b1f1f)!important;
+        background: -o-linear-gradient(50deg,#bd6868,#9b1f1f)!important;
+        background: linear-gradient(40deg,#bd6868,#9b1f1f)!important;
+    }
+
+.break {
+    padding-top: 1vw;
+}
+
+a {
+    color: black!important;
+}
+
+a:hover {
+    text-decoration: none !important;
 }
