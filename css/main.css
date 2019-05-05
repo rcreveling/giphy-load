@@ -20,25 +20,29 @@ body {
 
 }
 
+.container {
+    padding-bottom: 9vh !important;
+}
 
 #buttonsDiv {
     padding-left: 1vw;
-    margin-top: 0px;
+    margin-top: 0px !important;
     padding-top: 1vh;
     padding-bottom: 1vh;
+    height: fit-content !important;
     background-color: white;
+    margin-bottom: 0 !important;
 }
 
-#imageRow {
+.row {
     min-width: 100vw !important;
     padding-left: 1vw;
     padding-right: 1vw;
-    margin: 0 !important;
-    
-    height: 200vh;
-    overflow-wrap: break-word;
+    height: 15vh !important;
+    max-height: 15vh !important;
     padding-top: 1vh;
-    padding-bottom: 1vh;
+    margin-top: 5vh !important;
+    margin-bottom: 5vh !important;
 }
 
 #hiddenStuff {
